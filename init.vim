@@ -19,6 +19,7 @@ cd C:\Users\misko\Desktop\files\coding
 "" let NERDTreeMinimalUI = 1
 "" let NERDTreeDirArrows = 1
 
+set backspace=indent,eol,start
 syntax on
 :colorscheme onedark
 set number
