@@ -19,6 +19,7 @@ cd C:\Users\misko\Desktop\files\coding
 "" let NERDTreeMinimalUI = 1
 "" let NERDTreeDirArrows = 1
 
+set ts=4 sw=4
 autocmd GUIEnter * set vb t_vb=
 set backspace=indent,eol,start
 set guifont=Consolas:h14
