@@ -21,6 +21,7 @@ cd C:\Users\misko\Desktop\files\coding
 
 autocmd GUIEnter * set vb t_vb=
 set backspace=indent,eol,start
+set guifont=Consolas:h14
 syntax on
 :colorscheme onedark
 set number
