@@ -19,6 +19,7 @@ cd C:\Users\misko\Desktop\files\coding
 "" let NERDTreeMinimalUI = 1
 "" let NERDTreeDirArrows = 1
 
+set ts=4 sw=4
 set guifont=Consolas:h14
 syntax on
 :colorscheme onedark
