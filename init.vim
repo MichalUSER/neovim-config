@@ -27,7 +27,7 @@ set noswapfile
 set ts=4 sw=4
 syntax on
 set termguicolors
-colorscheme monokai
+colorscheme gruvbox
 set number
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 set clipboard=unnamedplus
