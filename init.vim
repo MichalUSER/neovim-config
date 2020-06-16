@@ -24,10 +24,11 @@ cd ~/Desktop/files/coding
 "" let NERDTreeDirArrows = 1
 
 set noswapfile
-set ts=4 sw=4
 syntax on
 set termguicolors
 colorscheme gruvbox
-set number
+let g:gruvbox_invert_selection=0
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
+set number
 set clipboard=unnamedplus
+set ts=4 sw=4
