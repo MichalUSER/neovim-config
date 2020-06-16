@@ -8,9 +8,13 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'scrooloose/syntastic'
 Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
+Plug 'morhetz/gruvbox'
+Plug 'cocopon/iceberg.vim'
+Plug 'sickill/vim-monokai'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
-cd C:\Users\misko\Desktop\files\coding
+cd ~/Desktop/files/coding
 
 " NerdTree Config
 "" autocmd vimenter * NERDTree
@@ -21,9 +25,9 @@ cd C:\Users\misko\Desktop\files\coding
 
 set noswapfile
 set ts=4 sw=4
-set guifont=Consolas:h14
 syntax on
-:colorscheme onedark
+set termguicolors
+colorscheme monokai
 set number
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 set clipboard=unnamedplus
