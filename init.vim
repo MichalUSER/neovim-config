@@ -23,6 +23,10 @@ cd ~/Desktop/files/coding
 "" let NERDTreeMinimalUI = 1
 "" let NERDTreeDirArrows = 1
 
+map <C-l> :!ls<CR>
+map <C-k><C-o> :noh<CR>
+map <C-k><C-p> :vertical resize +5<CR>
+map <C-k><C-m> :vertical resize -5<CR>
 set noswapfile
 syntax on
 set termguicolors
