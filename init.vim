@@ -27,6 +27,7 @@ map <C-l> :!ls<CR>
 map <C-k><C-o> :noh<CR>
 map <C-k><C-p> :vertical resize +5<CR>
 map <C-k><C-m> :vertical resize -5<CR>
+set nobackup
 set noswapfile
 syntax on
 set termguicolors
