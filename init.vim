@@ -27,6 +27,7 @@ map <C-l> :!ls<CR>
 map <C-k><C-o> :noh<CR>
 map <C-k><C-p> :vertical resize +5<CR>
 map <C-k><C-m> :vertical resize -5<CR>
+let g:user_emmet_leader_key='<C-Z>'
 set nobackup
 set noswapfile
 syntax on
