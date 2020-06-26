@@ -12,6 +12,7 @@ Plug 'morhetz/gruvbox'
 Plug 'cocopon/iceberg.vim'
 Plug 'sickill/vim-monokai'
 Plug 'preservim/nerdcommenter'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 cd ~/Desktop/files/coding
