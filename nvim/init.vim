@@ -13,6 +13,7 @@ Plug 'cocopon/iceberg.vim'
 Plug 'sickill/vim-monokai'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 cd ~/Desktop/files/coding
