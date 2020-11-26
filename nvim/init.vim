@@ -2,18 +2,18 @@ call plug#begin()
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
+Plug 'cocopon/iceberg.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tmhedberg/SimpylFold'
 Plug 'scrooloose/syntastic'
 Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
-Plug 'morhetz/gruvbox'
-Plug 'cocopon/iceberg.vim'
-Plug 'sickill/vim-monokai'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
-Plug 'dense-analysis/ale'
+""Plug 'dense-analysis/ale'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 cd ~/Desktop/files/coding
@@ -34,8 +34,8 @@ set nobackup
 set noswapfile
 syntax on
 set termguicolors
+let g:gruvbox_invert_selection = 0
 colorscheme gruvbox
-let g:gruvbox_invert_selection=0
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 set number
 set clipboard=unnamedplus
