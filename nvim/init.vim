@@ -4,6 +4,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 Plug 'cocopon/iceberg.vim'
+Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tmhedberg/SimpylFold'
@@ -35,8 +36,8 @@ set nobackup
 set noswapfile
 syntax on
 set termguicolors
-let g:gruvbox_invert_selection = 0
-colorscheme gruvbox
+""let g:gruvbox_invert_selection = 0
+colorscheme iceberg
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 set number
 set clipboard=unnamedplus
