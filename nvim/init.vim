@@ -1,10 +1,9 @@
 call plug#begin()
 Plug 'jiangmiao/auto-pairs'
-Plug 'sheerun/vim-polyglot'
+""Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 Plug 'cocopon/iceberg.vim'
-Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tmhedberg/SimpylFold'
@@ -13,7 +12,6 @@ Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
-""Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
