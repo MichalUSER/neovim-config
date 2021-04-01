@@ -1,6 +1,5 @@
 call plug#begin()
 Plug 'jiangmiao/auto-pairs'
-""Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 Plug 'cocopon/iceberg.vim'
@@ -12,7 +11,8 @@ Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 call plug#end()
 
 cd ~/Desktop/files/coding
@@ -28,6 +28,7 @@ map <C-l> :!ls<CR>
 map <C-k><C-o> :noh<CR>
 map <C-k><C-p> :vertical resize +5<CR>
 map <C-k><C-m> :vertical resize -5<CR>
+set mouse=a
 set ttimeoutlen=5
 let g:user_emmet_leader_key='<C-Z>'
 set nobackup
