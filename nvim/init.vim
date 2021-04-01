@@ -1,7 +1,6 @@
 call plug#begin()
 Plug 'jiangmiao/auto-pairs'
 Plug 'joshdick/onedark.vim'
-Plug 'morhetz/gruvbox'
 Plug 'cocopon/iceberg.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -35,7 +34,6 @@ set nobackup
 set noswapfile
 syntax on
 set termguicolors
-""let g:gruvbox_invert_selection = 0
 colorscheme iceberg
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 set number
