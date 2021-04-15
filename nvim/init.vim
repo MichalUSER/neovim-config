@@ -2,6 +2,7 @@ call plug#begin()
 Plug 'jiangmiao/auto-pairs'
 Plug 'joshdick/onedark.vim'
 Plug 'cocopon/iceberg.vim'
+Plug 'sainnhe/gruvbox-material'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tmhedberg/SimpylFold'
@@ -10,8 +11,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
 Plug 'preservim/nerdcommenter'
 Plug 'mattn/emmet-vim'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 cd ~/Desktop/files/coding
@@ -34,7 +34,7 @@ set nobackup
 set noswapfile
 syntax on
 set termguicolors
-colorscheme iceberg
+colorscheme gruvbox-material
 hi! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
 set number
 set clipboard=unnamedplus
