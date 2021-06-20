@@ -4,7 +4,7 @@
 - base base-devel sudo linux-lts linux-firmware nvidia-lts amd-ucode
 - grub efibootmgr gnome
 - yay - from github
-- firefox kitty htop neofetch neovim xclip
+- firefox kitty htop neofetch neovim xclip git
 - libreoffice-still gimp mpv godot pavucontrol obs-studio
 - exa fish
 
